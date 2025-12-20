@@ -52,7 +52,7 @@ export const ProjectCard = ({ title, description, technologies, features }: Proj
               <Badge 
                 key={index} 
                 variant="secondary" 
-                className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 text-blue-300 border border-blue-500/30 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-400/25 transition-all duration-300 hover:scale-110 cursor-pointer"
+                className="bg-gradient-to-r from-blue-900/50 to-purple-900/50  border border-blue-500/30 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-400/25 transition-all duration-300 hover:scale-110 cursor-pointer"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 {tech}

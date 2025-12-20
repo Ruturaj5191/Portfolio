@@ -21,18 +21,18 @@ export const ExperienceCard = () => {
           </div>
           <div>
             <CardTitle className="text-2xl text-cyan-400 animate-glow group-hover:text-cyan-300 transition-colors duration-300">
-              Software Developer
+              Software Developer Intern
             </CardTitle>
             <div className="flex items-center space-x-4 mt-2">
-              <p className="text-lg text-gray-300 font-semibold">Nimbja Security Solutions Pvt Ltd</p>
+              <p className="text-lg text-gray-300 font-semibold">A2Z IT HUB Pvt  Ltd</p>
               <div className="flex items-center space-x-1 text-cyan-400">
                 <Calendar size={16} />
-                <span className="text-sm">1.6 years</span>
+                <span className="text-sm">6 Months</span>
               </div>
             </div>
             <div className="flex items-center space-x-1 text-purple-400 mt-1">
               <MapPin size={16} />
-              <span className="text-sm">Pune</span>
+              <span className="text-sm">Ahilyanagar</span>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ export const ExperienceCard = () => {
               <Badge 
                 key={index} 
                 variant="secondary" 
-                className="bg-gradient-to-r from-cyan-900/50 to-blue-900/50 text-cyan-300 border border-cyan-500/30 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/25 transition-all duration-300 hover:scale-110 cursor-pointer"
+                className="bg-gradient-to-r from-cyan-900/50 to-blue-900/50  border border-cyan-500/30 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/25 transition-all duration-300 hover:scale-110 cursor-pointer"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {tech}
