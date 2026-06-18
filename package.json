@@ -1,0 +1,13 @@
+{
+  "name": "ruturaj-portfolio",
+  "version": "1.0.0",
+  "description": "Ruturaj Vidhate Portfolio Monorepo",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": [],
+  "author": "Ruturaj Vidhate",
+  "license": "ISC"
+}
